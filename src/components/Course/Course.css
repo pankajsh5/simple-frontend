@@ -1,0 +1,127 @@
+/* Course Feature Component CSS */
+.course-feature {
+    display: flex;
+    margin-block: 2em;
+    margin-inline : auto;
+    border: 1px solid #ccc;
+    width: 80%;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .features > h3{
+    font-size: 2rem;
+    margin-block : 1em;
+  }
+  
+  img {
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .course-details {
+    padding: 20px;
+    width: 60%;
+    background-color: #f9f9f9;
+  }
+  
+  
+  .course-details > h2 {
+    font-size: 2.5rem;
+  }
+  
+  .features {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+
+  #carousel{
+    width: 50%;
+    height: 25vh;
+    /* overflow: hidden; */
+    text-align: center;
+    margin-inline : auto;
+    /* background-color: red; */
+    overflow: hidden;
+  }
+
+  
+  #inner-car{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* transform: translateX(-600%); */
+  }
+
+  .glass-card {
+    background: rgba(60, 84, 94, 0.2); /* Adjust the alpha value for transparency */
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.glass-card h2 {
+    margin: 0;
+    color: #fff;
+}
+
+  #car-btn{
+    display: flex;
+    justify-content: center;
+    gap : 0.4em;
+    margin-block : 0.3em;
+  }
+
+  .carousel-card{
+    flex : none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-inline : 0.3em;
+  }
+
+  #purchase{
+    margin-block : 2em;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .course-feature {
+      flex-direction: column;
+      width: 95%;
+    }
+  
+    img {
+      width: 100%;
+    }
+  
+    .course-details {
+      width: 100%;
+    }
+
+    #carousel{
+      width: 100%;
+    }
+  }
+  
+
+
+
+

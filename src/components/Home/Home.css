@@ -1,0 +1,88 @@
+/* Add your CS styling here */
+.course-catalog {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  header {
+    background-color: rgb(8, 82, 57);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-block: 1em;
+    gap : 0.7em;
+    /* justify-content: space-around; */
+  }
+  
+  .course {
+    flex: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap : 0.2em;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* margin: 10px; */
+    width: 30%;
+  }
+
+  .course > img{
+    width: 100%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: rgb(8, 82, 57);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+
+@media screen and ( max-width : 480px ) {
+    .course-catalog{
+        width: 100%;
+        padding : 2em 0.2em;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        gap : 0.3em;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        /* padding : 0px 0px; */
+    }
+    .course{
+        width: 95%;
+    }
+}
+  

@@ -1,0 +1,42 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:60px;
+    padding-inline : 0.4em;
+    background-color: rgb(8, 82, 57);
+    
+}
+
+#ham{
+    display: none;
+}
+
+.logo{
+    color: whitesmoke;
+    font-weight: 300;
+}
+.btn{
+    background-color: #f7f8f9;
+    color: #211414;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    /* font-weight: bold; */
+    
+}
+
+.header > .buttons{
+    display: flex;
+    gap : 0.3em;
+}
+
+@media screen and ( max-width : 480px ) {
+    .header{
+        justify-content: space-between;
+        padding: 0;
+    }
+}

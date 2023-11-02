@@ -1,0 +1,45 @@
+/* Add responsive styling here */
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 2em;
+    /* background-color: ; */
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  select {
+    appearance: none;
+  }
+  
+  /* Media query for responsive design */
+@media (max-width: 768px) {
+  input, select {
+    width: 100%;
+  }
+}
+
+@media screen and ( max-width : 480px ) {
+  .container{
+    /* background-color: blue; */
+    width: 100%;
+  }
+}
+  
