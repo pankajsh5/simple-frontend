@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./login.css";
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 import { toast } from 'react-toastify';
@@ -85,6 +86,7 @@ const Login = ({ setXenonstack }) => {
         </div>
         <button type="submit" onClick={handleSubmit}>Login</button>
       </form>
+      <p>Don't have an account? <Link to="/register" >Click Here</Link></p>
     </div>
   );
 };
