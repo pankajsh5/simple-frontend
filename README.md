@@ -54,7 +54,8 @@ The frontend will be accessible at `http:localhost:3000`
 
 ![image](https://github.com/pankajsh5/xenon-frontend/assets/120113677/85057fd3-fe86-49a7-a2f9-0b534e8537d6)
 
-![image](https://github.com/pankajsh5/xenon-frontend/assets/120113677/99721ee3-40b1-46af-9047-ade89d91c5c9)
+![image](https://github.com/pankajsh5/xenon-frontend/assets/120113677/79d39045-80f2-4865-90ec-383a52d981b1)
+
 
 
 
