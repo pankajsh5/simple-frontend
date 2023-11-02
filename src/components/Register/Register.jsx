@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./register.css";
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -114,6 +114,8 @@ const Register = () => {
         </div>
         <button type="submit">Register</button>
       </form>
+      <p>Already have an account? <Link to="/signin" >Click Here</Link></p>
+
     </div>
   );
 };
