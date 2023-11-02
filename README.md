@@ -2,9 +2,12 @@
 
 # Course Selling Website
 
+**Deployed link** - https://xenon-frontend.vercel.app/
+
 Welcome to the Course Selling Website, a platform designed to help you sell and manage online courses. This project includes both a frontend and a backend component to provide a seamless user experience.
 
 ## Project Structure
+
 
 - **Frontend**: The frontend of the website is built using React and Vite, providing a fast and efficient user interface. It includes features for browsing courses, user authentication, and more.
 
